@@ -4,8 +4,9 @@
 #include <windows.h>
 #include <locale.h>
 #include "menu_principal.c"
+#include "alunos.h"
 
-
+void limpartela();
 main(){
     setlocale(LC_ALL, "");
     int i,j, op=0;
@@ -18,11 +19,11 @@ main(){
       printf ("  %d%%\r", i*2);
 
       for (j = 0; j < i; j++){
-         if (!j)
+         if (j == 0)
            printf("  ");
 
-         printf ("%c", 177);
-         Sleep(10);
+           printf ("%c", 177);
+           Sleep(10);
       }
    }
 
@@ -36,22 +37,27 @@ main(){
         scanf("%d", &op);
         switch(op){
             case 1:
-                system("cls");
-                printf("Cadastrar alunos\n\n");break;
+                limpartela();
+                op_alunos();break;
             case 2:
-                system("cls");
+                limpartela();
                 printf("Cadastrar acervo\n\n");break;
             case 3:
-                system("cls");
+                limpartela();
                 printf("Emprestimos\n\n");break;
             case 4:
-                system("cls");
-                printf("Obrigado por usar nosso sistema!");break;
+                limpartela();
+                printf("\n\n\t\tObrigado por usar nosso sistema!\n\n");
+                Sleep(1000);
+                break;
             default:
-                system("cls");
+                limpartela();
                 printf("\nOpção incorreta!\n");break;
         }
 
     }while(op != 4);
 
+}
+void limpartela(){
+    system("cls");
 }
