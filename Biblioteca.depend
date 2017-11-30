@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1511905177 source:c:\users\jhonatan feitosa\desktop\pastas\uepb\2º periodo\lab1\biblioteca\biblioteca\main.c
+	<stdio.h>
+	<stdlib.h>
+	<dos.h>
+	<windows.h>
+	<locale.h>
+	"menu_principal.c"
+
+1511841127 c:\users\jhonatan feitosa\desktop\pastas\uepb\2º periodo\lab1\biblioteca\biblioteca\menu_principal.c
+	<stdio.h>
+
+1511902977 source:c:\users\jhonatan feitosa\desktop\pastas\uepb\2º periodo\lab1\biblioteca\biblioteca\livros.c
+	<stdio.h>
+
+1511902977 source:c:\users\jhonatan feitosa\desktop\pastas\uepb\2º periodo\lab1\biblioteca_lab1\livros.c
+	<stdio.h>
+
+1512065093 source:c:\users\jhonatan feitosa\desktop\pastas\uepb\2º periodo\lab1\biblioteca_lab1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<dos.h>
+	<windows.h>
+	<locale.h>
+	"menu_principal.c"
+
+1512064135 c:\users\jhonatan feitosa\desktop\pastas\uepb\2º periodo\lab1\biblioteca_lab1\menu_principal.c
+	<stdio.h>
+
+1512064742 c:\users\jhonatan feitosa\desktop\pastas\uepb\2º periodo\lab1\biblioteca_lab1\alunos.c
+	<stdio.h>
+
+1512064756 c:\users\jhonatan feitosa\desktop\pastas\uepb\2º periodo\lab1\biblioteca_lab1\acervo.c
+	<stdio.h>
+
+1512064757 c:\users\jhonatan feitosa\desktop\pastas\uepb\2º periodo\lab1\biblioteca_lab1\emprestimos.c
+	<stdio.h>
+
+1512064756 source:c:\users\jhonatan feitosa\desktop\pastas\uepb\2º periodo\lab1\biblioteca_lab1\acervo.c
+	<stdio.h>
+
+1512064742 source:c:\users\jhonatan feitosa\desktop\pastas\uepb\2º periodo\lab1\biblioteca_lab1\alunos.c
+	<stdio.h>
+
+1512064757 source:c:\users\jhonatan feitosa\desktop\pastas\uepb\2º periodo\lab1\biblioteca_lab1\emprestimos.c
+	<stdio.h>
+
