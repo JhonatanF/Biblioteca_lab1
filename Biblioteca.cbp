@@ -32,6 +32,15 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Unit filename="Biblioteca.cbp" />
+		<Unit filename="acervo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="alunos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="emprestimos.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="livros.c">
 			<Option compilerVar="CC" />
 		</Unit>
