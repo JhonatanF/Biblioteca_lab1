@@ -5,16 +5,16 @@
 #include <locale.h>
 #include "menu_principal.c"
 #include "alunos.h"
-
 void limpartela();
 main(){
     setlocale(LC_ALL, "");
     int i,j, op=0;
 
 
-    printf("\n\n\n\n  :::::  VOCÊ VAI CONHECER O NOSSO SISTEMA DE GESTÃO DE BIBLIOTECAS ! ::::: \n\n\n");
+    printf("\n\n\n\n  ...:::::  VOCÊ VAI CONHECER O NOSSO SISTEMA DE GESTÃO DE BIBLIOTECAS ! :::::... \n\n\n");
 
     printf("Carregando Sistema...\n");
+   // Carregamento do sistema
     for (i = 1; i <= 50; i++){
       printf ("  %d%%\r", i*2);
 
@@ -26,9 +26,8 @@ main(){
            Sleep(10);
       }
    }
-
     printf ("\n\n\n\tInicializando sistema...\n\n");
-    Sleep(1000);
+    Sleep(1000);//pausa para inicializar o sistema
     system("cls");
 
 

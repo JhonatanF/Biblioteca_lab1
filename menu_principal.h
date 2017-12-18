@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void menu_principal (){
+void mprincipal(){
 
     printf("\n---------------MENU-------------\n\n");
     printf("- 1 Aluno\t\t\t-\n");
